@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>我是唐03,这是我提交的</h2>
-    <h2>我是YCC，这是我提交的O</h2>
+    <h2>我是YCC，这是我提交的123</h2>
     <p> 
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
