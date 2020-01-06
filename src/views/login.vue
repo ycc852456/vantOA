@@ -3,7 +3,8 @@
     <form class="login-form" novalidate @submit.stop.prevent="login">
       <input type="text" v-model="user.loginName">
       <input type="password" v-model="user.pwd">
-      <button type="submit">登陆</button>
+      <van-button type="info">登录</van-button>
+      <p class="aa">这是16px的字</p>
     </form>
   </div>
 </template>
@@ -49,5 +50,9 @@
 </script>
 
 <style lang="scss">
-
+  .login-form{
+    .aa{
+        font-size: 16px;
+      }
+  }
 </style>
